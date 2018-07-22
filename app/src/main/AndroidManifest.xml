@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="roi.hallumi.HallRoiYair.mazeman">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="mazaman"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name="roi.hallumi.HallRoiYair.mazeman.MainActivity"
+            android:label="mazaman"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="roi.hallumi.HallRoiYair.mazeman.HelpActivity"/>
+        <activity android:name="roi.hallumi.HallRoiYair.mazeman.PlayActivity"/>
+        <activity android:name="roi.hallumi.HallRoiYair.mazeman.PauseActivity"/>
+        <activity android:name="roi.hallumi.HallRoiYair.mazeman.LevelsDialog"/>
+        <activity android:name="roi.hallumi.HallRoiYair.mazeman.PlayActivityOne"/>
+        <activity android:name="roi.hallumi.HallRoiYair.mazeman.PlayActivityTwo"/>
+        <activity android:name="roi.hallumi.HallRoiYair.mazeman.AboutActivity"/>
+        <service android:name="roi.hallumi.HallRoiYair.mazeman.BackgroundMusicService"/>
+    </application>
+
+</manifest>
